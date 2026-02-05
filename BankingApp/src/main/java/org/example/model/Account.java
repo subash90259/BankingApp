@@ -1,9 +1,20 @@
-package org.example;
+package org.example.model;
 
 public class Account {
+    private int accid;
     private int accno;
     private String name;
     private double balance;
+
+    public int getAccid() {
+        return accid;
+    }
+
+    public void setAccid(int accid) {
+        this.accid = accid;
+    }
+
+
 
     public int getAccNo() {
         return accno;
